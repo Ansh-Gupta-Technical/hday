@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Surprise!</title>
+    <!-- Classic Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure this file exists -->
+</head>
+<body>
+    <!-- Music Popup -->
+    <div id="music-popup" class="popup">
+        <div class="popup-content">
+            <h2>🎶 Wanna Play Some Tune's? 🎶</h2>
+            <button id="yes-btn" class="popup-btn">Yes</button>
+            <button id="no-btn" class="popup-btn">No</button>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <h1>🎉 Happy Birthday, Tejas PaaJi! 🎉</h1>
+        <p>Let's Celebrate Your Birthday in a Special Way 🥳</p>
+    </header>
+
+    <!-- Centered Button -->
+    <div class="button-container">
+        <a href="ansh.html" id="surprise-btn" class="surprise-btn hidden">🎁 Click For Surprise 🎁</a>
+    </div>
+
+    <!-- Music Player -->
+    <audio id="audio-player" style="display:none;" controls>
+        <source src="snowfall.mp3" type="audio/mp3"> <!-- Replace with your actual music file -->
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="ansh-script.js"></script> <!-- Ensure this file exists -->
+</body>
+</html>
